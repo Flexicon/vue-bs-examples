@@ -45,7 +45,7 @@ export default {
   width: 150px;
   position: absolute;
   left: -30px;
-  top: 70px;
+  top: calc(50% - 15px);
   font-weight: bold;
   font-size: 20px;
   transform: rotate(-90deg);
