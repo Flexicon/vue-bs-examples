@@ -1,19 +1,27 @@
 <template>
   <div id="app">
-    <h1>Some VueBootstrap examples</h1>
-    <hr />
-
-    <nav-example></nav-example>
+    <b-container>
+      <b-row>
+        <b-col>
+          <h1>Some VueBootstrap examples</h1>
+          <hr />
+          <nav-example></nav-example>
+          <cards-list-example class="pt-5"></cards-list-example>
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
 <script>
-import NavExample from './components/NavExample.vue'
+import NavExample from './components/NavExample'
+import CardsListExample from './components/CardsListExample'
 
 export default {
   name: 'app',
   components: {
     NavExample,
+    CardsListExample,
   },
 }
 </script>
